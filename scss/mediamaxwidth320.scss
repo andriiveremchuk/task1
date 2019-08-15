@@ -1,0 +1,45 @@
+@media screen and (max-width: 320px) {
+    .info {
+        &__wrapper {
+
+            &::before, 
+            &::after {
+            width: 20px;
+            }
+        }
+
+        &__title {
+            left: 20px;
+            right: 20px;
+            font-size: 12px;
+            letter-spacing: 2.5px;
+    
+            &--small {
+                font-size: 11px;
+                letter-spacing: 1.5px;
+            }
+        }
+    }
+
+    .gallery {
+        flex-direction: column;
+
+        &__content {
+            width: 99%;
+
+            &:nth-child(2), &:nth-child(5) {
+                width: 99%;
+            }
+        }
+
+        img {
+            height: 135px;
+        }
+
+        &__title {
+            font-size: 15px;
+
+        }
+    }
+}
+

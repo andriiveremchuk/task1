@@ -1,0 +1,50 @@
+@media screen and (max-width: 540px) {
+    .info {
+
+        &__content {
+            margin-top: 20px;
+        }
+
+        &__wrapper {
+            width: 80%;
+            padding: 10px 40px 10px;
+
+            &::before, 
+            &::after {
+            width: 35px;
+            }
+        }
+
+        &__title {
+            top: -7px;
+            left: 35px;
+            right: 35px;
+            font-size: 15px;
+            letter-spacing: 2.5px;
+    
+            &--small {
+                font-size: 14px;
+                letter-spacing: 2px;
+            }
+        }
+
+        &__button {
+            margin-bottom: 15px;
+        }
+    }
+
+    .banner {
+
+        &__title {
+            font-size: 26px; 
+            letter-spacing: 3.5px; 
+
+        }
+
+        &__text {
+            font-size: 9px;
+            line-height: 1.8;
+            width: 70%;
+        }
+    }
+}
